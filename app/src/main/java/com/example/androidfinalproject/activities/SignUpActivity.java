@@ -1,4 +1,4 @@
-package com.example.androidfinalproject;
+package com.example.androidfinalproject.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
