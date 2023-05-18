@@ -5,7 +5,7 @@ plugins {
 
 
 android {
-    namespace 'com.amazing.quickchat'
+    namespace 'com.example.androidfinalproject'
     compileSdk 33
 
     defaultConfig {
