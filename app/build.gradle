@@ -1,13 +1,15 @@
 plugins {
     id 'com.android.application'
+    id 'com.google.gms.google-services'
 }
 
+
 android {
-    namespace 'com.example.androidfinalproject'
+    namespace 'com.amazing.quickchat'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.example.androidfinalproject"
+        applicationId "com.amazing.quickchat"
         minSdk 24
         targetSdk 33
         versionCode 1
@@ -35,12 +37,23 @@ android {
 
 dependencies {
 
-    implementation 'com.github.bumptech.glide:glide:4.12.0' //Glide
-    implementation 'com.github.bumptech.glide:glide:4.12.0@aar' //Glide
-    annotationProcessor 'com.github.bumptech.glide:compiler:4.12.0' //Glide
+    implementation 'com.github.bumptech.glide:glide:4.15.0' //Glide
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.15.0' //Glide
+
+    // Import the Firebase BoM
+    implementation platform('com.google.firebase:firebase-bom:32.0.0')
+
+    // Add the dependency for the Firebase SDK for Google Analytics
+    implementation 'com.google.firebase:firebase-analytics'
+
+    // TODO: Add the dependencies for any other Firebase products you want to use
+    // See https://firebase.google.com/docs/android/setup#available-libraries
+    // For example, add the dependencies for Firebase Authentication and Cloud Firestore
+    implementation 'com.google.firebase:firebase-auth'
+    implementation 'com.google.firebase:firebase-firestore'
 
     implementation 'androidx.appcompat:appcompat:1.6.1'
-    implementation 'com.google.android.material:material:1.5.0'
+    implementation 'com.google.android.material:material:1.9.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
