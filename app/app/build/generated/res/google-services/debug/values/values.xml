@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">170713780013-3vsvfb747kt8siufm88f6llm4k378q61.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">170713780013</string>
+    <string name="google_api_key" translatable="false">AIzaSyBBYY0NNbkMIQSThCTRLYmz5RG7FM_ryrY</string>
+    <string name="google_app_id" translatable="false">1:170713780013:android:79953392510a30973bcda4</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBBYY0NNbkMIQSThCTRLYmz5RG7FM_ryrY</string>
+    <string name="google_storage_bucket" translatable="false">quickchat-9bb08.appspot.com</string>
+    <string name="project_id" translatable="false">quickchat-9bb08</string>
+</resources>
